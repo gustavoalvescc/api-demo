@@ -1,0 +1,25 @@
+.tg-product-list{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  
+  .tg-product-pagination{
+    margin: 10px auto 0px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    span{
+        padding: 5px 10px 0px 10px;
+    }
+    button{
+      background: transparent;
+      border: none;
+      padding: 0px 10px;
+      font-size: 0px;
+      i{
+        font-size: 24px;
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+.tg-header{
+  position: fixed;
+  top: 0px;
+  display: flex;
+  background: $grey;
+  color: $white; 
+  align-items: center;
+  width: 100%;
+  .tg-header-content{
+    display: flex;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+    height: 60px;
+    align-items: center;
+    img{
+      height: 40px;
+    }
+    .tg-home{
+      color: $white;
+      font-weight: 600;
+      flex-grow: 1;
+      text-align: center;
+      text-decoration: none;
+      font-size: 20px;
+      max-width: 768px;
+      margin: 0 auto;
+      padding: 0px 20px;
+    }
+    
+  }
+}
+
+//Tablet
+@media (min-width: 768px){
+  .tg-header{
+    .tg-header-content{
+    height: 70px;
+    img{
+      height: 50px;
+    }
+    .tg-home{
+      font-size: 22px;
+    }
+  }
+  }
+}
+
+@media (min-width: 992px){
+  .tg-header{
+    .tg-header-content{
+    margin: 0 auto;
+    width: 992px;
+    padding: 0px 40px;
+  }
+  }
+}

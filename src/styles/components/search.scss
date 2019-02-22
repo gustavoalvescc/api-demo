@@ -1,0 +1,24 @@
+.tg-search{
+  margin-bottom: 20px;
+  display: flex;
+  .tg-search-input{
+    border: none;
+    border-bottom: 1px solid $grey;
+    width: 100%; 
+    background: transparent;
+    padding: 3px 0px 3px 0px;
+    font-size: 20px;
+  }
+  .tg-search-button{
+    padding: 3px 0px 3px 5px;
+    
+    color: $grey;
+    border: 0px;
+    border-bottom: 1px solid $grey;
+    background: white;
+    font-size: 0px;
+    i{
+      font-size: 24px;
+    }
+  }
+}

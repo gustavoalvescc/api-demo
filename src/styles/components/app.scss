@@ -1,0 +1,49 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: $font;
+  height: 100%;
+  width: 100%;
+}
+
+.tg-content{
+  padding: 90px 30px 30px 30px;
+}
+
+.tg-block{
+  display: block;
+}
+
+.clearfix{
+  clear: both;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+.hidden{
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  top: auto;
+  overflow: hidden;
+}
+
+@media (min-width: 768px){
+  .tg-content{
+    padding: 120px 40px 40px 40px;
+  }
+}
+
+@media (min-width: 992px){
+  .tg-content{
+    width: 992px;
+    margin: 0 auto;
+    padding: 120px 40px 40px 40px;
+  }
+}
+
